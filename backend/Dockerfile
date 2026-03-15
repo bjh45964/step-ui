@@ -1,4 +1,4 @@
-FROM golang:1.21-bullseye AS builder
+FROM golang:1.23-bookworm AS builder
 
 # Install step CLI and build dependencies
 RUN apt-get update && apt-get install -y \
